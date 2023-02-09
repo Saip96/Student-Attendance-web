@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Attendance System</title>
+</head>
+<body>
+  <h1>Student Attendance System</h1>
+
+  <form action="submit_attendance.php" method="post">
+    <label for="student_id">Student ID:</label>
+    <input type="text" id="student_id" name="student_id">
+    <br><br>
+
+    <label for="student_name">Student Name:</label>
+    <input type="text" id="student_name" name="student_name">
+    <br><br>
+
+    <label for="course">Course:</label>
+    <input type="text" id="course" name="course">
+    <label for="Entry Time">Entry Time:</label>
+    <input type="text" id="Entry Time" name=" Entry Time"> 
+    <br><br>
+
+    <label for="attendance_date">Attendance Date:</label>
+    <input type="date" id="attendance_date" name="attendance_date">
+    <br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
